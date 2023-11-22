@@ -20,7 +20,7 @@ int main() {
     int arr[] = {64, 25, 12, 22, 11};
     int n = sizeof(arr) / sizeof(arr[0]);
 
-    cout << "Array before sorting: ";
+    cout << "Array before sorting: "<<endl;
     for (int i = 0; i < n; i++) {
         cout << arr[i] << " ";
     }
@@ -28,7 +28,7 @@ int main() {
 
     selectionSort(arr, n);
 
-    cout << "Array after sorting: ";
+    cout << "Array after sorting: " <<endl;
     for (int i = 0; i < n; i++) {
         cout << arr[i] << " ";
     }
